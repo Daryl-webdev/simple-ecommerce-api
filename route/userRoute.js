@@ -3,7 +3,7 @@ const { getAllUsers, deleteAll,toNonAdmin, registerUser, login, toAdmin } = requ
 const router = express.Router();
 const { verifyToken, verifyIsAdmin } = require("../auth")
 
-router.get('/', getAllUsers)
+router.get('/', verifyToken, verifyIsAdmin, getAllUsers)
 router.delete('/delete', deleteAll)
 router.put('/to-non-admin/:id', toNonAdmin)
 

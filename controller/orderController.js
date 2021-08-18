@@ -9,7 +9,6 @@ exports.createOrder = (req,res)=>{
 	let userName = req.decodedUser.userName
 	let productId = req.params.prodId	
 	Product.findOne({_id: productId}, function(err, result){
-		console.log(result)
 		if(err){
 			console.log(err)
 		}else if(result.isActive == false){
@@ -27,11 +26,11 @@ exports.createOrder = (req,res)=>{
 						}else{
 							let newProductInfo ={
 								productId: productId,
-								productName: result[0].name,
-								productPrice: result[0].price
+								productName: result.name,
+								productPrice: result.price
 							}
 							foundOrder.productInfo.push(newProductInfo)
-							foundOrder.totalAmount += result[0].price
+							foundOrder.totalAmount += result.price
 							foundOrder.save((err,save)=> (err) ? console.log(err) : res.send(save))
 						}	
 				}else{
