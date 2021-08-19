@@ -16,7 +16,7 @@ app.use(express.urlencoded({extended: true}))
 app.use(cors())
 
 //==================================Data Base Set Up===================================
-mongoose.connect(process.env.DB_CONNECT,
+mongoose.connect("mongodb+srv://daryl:marklyrad24@grimaldo-b121.pnyea.mongodb.net/daryl-b121",
 {
 	useNewUrlParser: true,
 	useUnifiedTopology: true,
