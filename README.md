@@ -14,7 +14,7 @@ What you can do:
 #Create order/purchase
 #View Order/Purchase
 
-================================================
+
 Major Difference of logging in as Admin and Non-admin
 #Login as Admin
   -You can login Using email/username and Password
@@ -33,7 +33,7 @@ Major Difference of logging in as Admin and Non-admin
       *View Your Order
       *Retrive all products(Limit to Active/available Products only)
       *Retrieve Single product(Limit to Active/available Product only)
-=================
+
 #On-going(soon)
   -User can change info (password, username etc.)
   -Will add "Add to cart" function
