@@ -9,8 +9,11 @@ What you can do:
     -You can think of an Admin as a Seller.
     -You can think of a nonAdmin as a Buyer.
 #Login User (Admin or NonAdmin).
+
 #Authenticate User.
+
 #Add product
+
 #Update Product
 
 #View Product/s
@@ -19,12 +22,11 @@ What you can do:
 
 #View Order/Purchase
 
-
 Major Difference of logging in as Admin and Non-admin
 
 #Login as Admin
 
-  -You can login Using email/username and Password
+  *You can login Using email/username and Password
   
       *You can delete/add products
       
@@ -44,8 +46,7 @@ Major Difference of logging in as Admin and Non-admin
       
 #Login as Non-admin
 
-  -You can login Using email/username and Password
- 
+  *You can login Using email/username and Password
       *Create Order
       *View Your Order
       *Retrive all products(Limit to Active/available Products only)
