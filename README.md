@@ -5,6 +5,7 @@ This API is built using MERN,
 What you can do:
 
 #Register User(Admin or NonAdmin).
+
     -You can think of an Admin as a Seller.
     -You can think of a nonAdmin as a Buyer.
 #Login User (Admin or NonAdmin).
